@@ -1,0 +1,285 @@
+{
+  "uuid": "635e5866014c99adbb2b3ee902b9353d",
+  "path": "Offline/ESP32 I2C Tools",
+  "name": "ESP32 I2C Tools",
+  "content": "",
+  "created_at": "2020-05-28 16:27:24",
+  "updated_at": "2020-05-30 16:33:23",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a159caf88b0b8cc90edb800abee75e93",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f3fe56761e5d4bb49b034efdb56ea9e7": 1,
+        "f71b49e2ebee4bee8eff25c816c2462c": 1,
+        "5f0eaf41ace84995923b417354582b24": 1,
+        "49e60f9cd2f84f33810ef661765abd4a": 1,
+        "13965fcde7f942c7af1e857460da5004": 5,
+        "2f87c516a391486eba7943cf52a6d1a8": 3,
+        "eb121041c38a432ba5f0325fe902e99b": 1,
+        "2f2c771dc147fb0210616ca49e419712": 1,
+        "e66203e484dd0e6130cdac3b854ed18b": 1,
+        "58b904d3bf42466c878662c433f46f31": 1,
+        "1ae60609edcb859d8c7e885be62b78ae": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Header-Male-2.54_1x4_C59481",
+          1,
+          "HDR-TH_4P-P2.54-V",
+          "H1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Headers  Pins 1*4P",
+            "BOM_Supplier Part": "C59481",
+            "puuid": "31a453d5adfc45cea944a6450adf2918",
+            "uuid": "1ae60609edcb859d8c7e885be62b78ae"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0805",
+          "C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CC0805KRX7R9BB104",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C49678",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "2f2c771dc147fb0210616ca49e419712"
+          }
+        ],
+        [
+          "I2C Detect",
+          1,
+          "TACTILESWITCH_3.5X6X5",
+          "SW3",
+          {
+            "BOM_Manufacturer Part": "TactileSwitch_3.5x6x5",
+            "BOM_Supplier Part": "706-95C04B3GWRT",
+            "BOM_Supplier": "Mouser",
+            "puuid": "5956d33dcca24e18b76f8b7bc705f067",
+            "uuid": "2f87c516a391486eba7943cf52a6d1a8"
+          }
+        ],
+        [
+          "Boot Mode",
+          1,
+          "TACTILESWITCH_3.5X6X5",
+          "SW2",
+          {
+            "BOM_Manufacturer Part": "TactileSwitch_3.5x6x5",
+            "BOM_Supplier Part": "706-95C04B3GWRT",
+            "BOM_Supplier": "Mouser",
+            "puuid": "5956d33dcca24e18b76f8b7bc705f067",
+            "uuid": "2f87c516a391486eba7943cf52a6d1a8"
+          }
+        ],
+        [
+          "Reset",
+          1,
+          "TACTILESWITCH_3.5X6X5",
+          "SW1",
+          {
+            "BOM_Manufacturer Part": "TactileSwitch_3.5x6x5",
+            "BOM_Supplier Part": "706-95C04B3GWRT",
+            "BOM_Supplier": "Mouser",
+            "puuid": "5956d33dcca24e18b76f8b7bc705f067",
+            "uuid": "2f87c516a391486eba7943cf52a6d1a8"
+          }
+        ],
+        [
+          "U-F-M5SS-W-2",
+          1,
+          "MICRO-USB-SMD_U-F-M5SS-W-2",
+          "USB1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C192640",
+            "BOM_Manufacturer": "Korean Hroparts Elec",
+            "BOM_Manufacturer Part": "U-F-M5SS-W-2",
+            "puuid": "76bdd133ccbf4f7288b9edec4215b8ef",
+            "uuid": "5f0eaf41ace84995923b417354582b24"
+          }
+        ],
+        [
+          "TS2940CW33",
+          1,
+          "RSOT-223",
+          "U3",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "9dcea08db44c408996426825df98310d",
+            "uuid": "49e60f9cd2f84f33810ef661765abd4a"
+          }
+        ],
+        [
+          "BSI-10",
+          1,
+          "SW-TH_BSI-10",
+          "SW5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C411269",
+            "BOM_Manufacturer": "XINGWEN",
+            "BOM_Manufacturer Part": "BSI-10",
+            "puuid": "25816c0fec37441889d821f819ca7e91",
+            "uuid": "58b904d3bf42466c878662c433f46f31"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "0805",
+          "R5,R3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C278674",
+            "BOM_Manufacturer": "PANASONIC",
+            "BOM_Manufacturer Part": "ERJP6WJ1R0V",
+            "puuid": "0d14e6c62b14419a891d7c175b7eca4f",
+            "uuid": "13965fcde7f942c7af1e857460da5004"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "0805",
+          "R4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C278674",
+            "BOM_Manufacturer": "PANASONIC",
+            "BOM_Manufacturer Part": "ERJP6WJ1R0V",
+            "puuid": "0d14e6c62b14419a891d7c175b7eca4f",
+            "uuid": "13965fcde7f942c7af1e857460da5004"
+          }
+        ],
+        [
+          "4k3",
+          2,
+          "0805",
+          "R1,R2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C278674",
+            "BOM_Manufacturer": "PANASONIC",
+            "BOM_Manufacturer Part": "ERJP6WJ1R0V",
+            "puuid": "0d14e6c62b14419a891d7c175b7eca4f",
+            "uuid": "13965fcde7f942c7af1e857460da5004"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0805",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0805F106M250NT",
+            "BOM_Supplier Part": "C48181",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "e66203e484dd0e6130cdac3b854ed18b"
+          }
+        ],
+        [
+          "JST",
+          1,
+          "XH-4A",
+          "C3",
+          {
+            "BOM_Manufacturer Part": "XH-4A",
+            "BOM_Supplier Part": "XH-4A",
+            "BOM_Supplier": "EasyEDA",
+            "BOM_DataSheet": "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+            "puuid": "eca12260c1ed4fcdb33c9a9762e40704",
+            "uuid": "eb121041c38a432ba5f0325fe902e99b"
+          }
+        ],
+        [
+          "ESP-WROOM-32",
+          1,
+          "WIFIM-SMD_ESP-WROOM-32",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ESPRESSIF",
+            "BOM_Manufacturer Part": "ESP-WROOM-32",
+            "BOM_Supplier Part": "C95209",
+            "puuid": "72eed90ca283493bb2f3b0ea7c165dd0",
+            "uuid": "f3fe56761e5d4bb49b034efdb56ea9e7"
+          }
+        ],
+        [
+          "CH340E",
+          1,
+          "MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "WCH",
+            "BOM_Manufacturer Part": "CH340E",
+            "BOM_Supplier Part": "C99652",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "94fdc921fc5048b299dde0a44f360b3d",
+            "uuid": "f71b49e2ebee4bee8eff25c816c2462c"
+          }
+        ]
+      ],
+      "updateTime": 1590822203,
+      "createTime": 1590651047,
+      "histories": [],
+      "created_at": "2020-05-28 17:00:47",
+      "updated_at": "2020-05-30 16:33:23"
+    },
+    {
+      "uuid": "124e8f006ea9f3c4d8a488d383b49355",
+      "puuid": "635e5866014c99adbb2b3ee902b9353d",
+      "title": "PCB_2020-05-29_19-07-35",
+      "filename": "PCB_2020-05-29_19-07-35.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "31a453d5adfc45cea944a6450adf2918": 1,
+        "25816c0fec37441889d821f819ca7e91": 1,
+        "5956d33dcca24e18b76f8b7bc705f067": 3,
+        "76bdd133ccbf4f7288b9edec4215b8ef": 1,
+        "9dcea08db44c408996426825df98310d": 1,
+        "0d14e6c62b14419a891d7c175b7eca4f": 5,
+        "eca12260c1ed4fcdb33c9a9762e40704": 1,
+        "72eed90ca283493bb2f3b0ea7c165dd0": 1,
+        "94fdc921fc5048b299dde0a44f360b3d": 1,
+        "bbc61cb2bd3840b290cf4f8db68b3c00": 2
+      },
+      "BOM": [],
+      "updateTime": 1590795230,
+      "createTime": 1590745055,
+      "histories": [],
+      "created_at": "2020-05-29 19:07:35",
+      "updated_at": "2020-05-30 09:03:50"
+    }
+  ],
+  "sort": [],
+  "title": "ESP32 I2C Tools",
+  "foldername": "ESP32 I2C Tools",
+  "schfilename": "ESP32 I2C Tools.json",
+  "schfilemtime": 1590822203686
+}
