@@ -1,5 +1,7 @@
 # I2C Tools Example
 
+***This whole directory copied from ESP-IDF - https://github.com/espressif/esp-idf/tree/master/examples/peripherals/i2c/i2c_tools ***
+
 (See the README.md file in the upper level 'examples' directory for more information about examples.)
 
 ## Overview
